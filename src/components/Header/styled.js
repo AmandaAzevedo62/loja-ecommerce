@@ -2,13 +2,12 @@ import styled from "styled-components"
 
 export const HeaderPai = styled.header`
     display: flex;
-    height: 10vh;
+    height: 10rem;
     justify-content: center;
-    background-color: #4B535E;
+    background-color: white;
 `
 export const Titulo = styled.div`
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: #016ABC;
+    font-size: 54px;
+    font-family: 'Cinzel', serif;
+    color: #2d3a21;
 `

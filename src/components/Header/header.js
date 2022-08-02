@@ -6,7 +6,7 @@ function Header() {
         <HeaderPai>
 
             <Titulo>
-                <p>LabEcommerce</p>
+                <p>Cosméticos</p>
             </Titulo>
         </HeaderPai>
     )
