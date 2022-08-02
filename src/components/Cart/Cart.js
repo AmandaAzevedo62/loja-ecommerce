@@ -7,8 +7,8 @@ const Container = styled.div`
     height: 100%;
     width: 100%;
     padding: 10px;
-    color: #016ABC;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2d3a21;
+    font-family: 'Arvo', serif;
 `
 
 const Produto = styled.div`
@@ -23,11 +23,12 @@ const Produto = styled.div`
 const BotaoRemover = styled.button`
     font-size: 15px;
     height: 30px;
-    cursor: pointer;
-    background: #016ABC;
-    color: #fff;
-    border: none;
+    background: #bc7d50;
+    color: #fff;   
+    border: 1px solid #eee;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    cursor: pointer;
     text-shadow:none;
 `
 

@@ -42,7 +42,7 @@ export const Prod = styled.div`
 
     button{
         font-size: 15px;
-        height: 55px;
+        height: 50px;
         background: #bc7d50;
         color: #fff;   
         border: 1px solid #eee;
