@@ -4,7 +4,8 @@ export const Main = styled.main`
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Arvo', serif;
+    color: #2d3a21;
 `
 
 export const Filtros = styled.div`
@@ -30,7 +31,7 @@ export const Prod = styled.div`
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Arvo', serif;
     gap: 5px;
     align-items: center;
 
@@ -42,12 +43,21 @@ export const Prod = styled.div`
     button{
         font-size: 15px;
         height: 55px;
-        background: #016ABC;
+        background: #bc7d50;
         color: #fff;   
         border: 1px solid #eee;
-        border-radius: 20px;
+        border-radius: 15px;
         box-shadow: 5px 5px 5px #eee;
         text-shadow:none;
         cursor: pointer;
 }
+
+    button:hover {
+        background-color: #e3b494;
+    }
+
+    button:active {
+        background-color: #fff;
+        color: #bc7d50;
+    }
 `

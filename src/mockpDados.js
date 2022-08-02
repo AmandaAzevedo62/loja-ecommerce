@@ -1,39 +1,39 @@
 export const mockProdutos = [
     {
         id: 1,
-        name: 'Camiseta Unissex Astronaut Swing Moon Space Nasa',
+        name: 'Óleo Capilar',
         price: 79.90,
-        photo: 'https://static3.tcdn.com.br/img/img_prod/460977/camiseta_masculina_unissex_astronaut_swing_moon_space_nasa_astronauta_balanco_na_lua_espaco_preta_ev_79625_1_e2852b083521f284cff8a5beaa512de0.jpg',
+        photo: 'https://images.unsplash.com/photo-1617897903246-719242758050?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
     },
     {
         id: 2,
-        name: 'Camiseta Masculina Estampada Astronauta',
+        name: 'Sérum Vitamina C',
         price: 70.90,
-        photo: 'https://images-americanas.b2w.io/produtos/4605995901/imagens/camiseta-masculina-estampada-astronauta-fora-do-espaco-m/4605995910_1_large.jpg',
+        photo: 'https://images.unsplash.com/photo-1617546268343-b2505faf1ee8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
 
     },
     {
         id: 3,
-        name: 'Camiseta Masculina Astronauta Nasa Dab',
+        name: 'Sérum Tea Tree',
         price: 59.90,
-        photo: 'https://http2.mlstatic.com/D_NQ_NP_975188-MLB48852556716_012022-O.webp',
+        photo: 'https://images.unsplash.com/photo-1598282628104-91ca80bf4e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=409&q=80',
     },
     {
         id: 4,
-        name: 'Camiseta Unissex Astronauta no Espaço Bandeira',
+        name: 'Creme Anti Age',
         price: 75.90,
-        photo: 'https://static3.tcdn.com.br/img/img_prod/460977/camiseta_feminina_unissex_astronauta_no_espaco_bandeira_space_nasa_preta_ev_82809_1_68be76d1c53bd19f674f01aad2638c8b.jpg',
+        photo: 'https://images.unsplash.com/photo-1575330933415-cea1e7ce53eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
     },
     {
         id: 5,
-        name: 'Camiseta Feminina Gato Astronauta: Nasa Espaço',
+        name: 'Creme Facial Noturno',
         price: 69.90,
-        photo: 'https://static3.tcdn.com.br/img/img_prod/460977/camiseta_feminina_unissex_gato_astronauta_nasa_espaco_preta_ev_77287_1_c184df988abc2a7cb1608805915c95e8.jpg',
+        photo: 'https://images.unsplash.com/photo-1552046122-03184de85e08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
     },
     {
         id: 6,
-        name: 'Camiseta Baby Look Astronauta Espaço',
+        name: 'Creme para as Mãos',
         price: 77.90,
-        photo: 'https://cf.shopee.com.br/file/10f9d9d6e344445174c1a4384ab53fe6',
+        photo: 'https://images.unsplash.com/photo-1606874576257-5400d9711ce1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
     },
 ]
