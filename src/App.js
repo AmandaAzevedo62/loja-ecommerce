@@ -23,7 +23,6 @@ const Site = styled.div`
 const ContainerFilter = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #9AA1AB;
   width: 20%;
   min-height: 100%;
 `
@@ -38,7 +37,6 @@ const ContainerHome = styled.div`
 const ContainerCart = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #9AA1AB;
   width: 20%;
   min-height: 100%;
 `

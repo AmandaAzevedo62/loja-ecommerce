@@ -5,6 +5,7 @@ export const HeaderPai = styled.header`
     height: 10rem;
     justify-content: center;
     background-color: white;
+    border-bottom: 2px solid #b6794d;
 `
 export const Titulo = styled.div`
     font-size: 54px;
