@@ -4,13 +4,19 @@ export const FooterPai = styled.footer`
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100%;
+
+    height: 300px;
     justify-content: center;
     color: #2d3a21;
-    font-family: 'Arvo', serif;
+    font-family: 'Kanit', sans-serif;
     gap: 7px;
     margin-top: 4rem;
     margin-left: 2rem;
+
+    @media screen and (max-width: 800px) {
+    margin: 0;
+    padding: 0;
+}
 
     img{
         height: 35px;
@@ -24,10 +30,21 @@ export const Newsletter = styled.div`
     background-color: #efefef;
     width: 80%;
     height: 200px;
-    color: #2d3a21;
+    color: #03453d;
+    font-family: 'Updock', cursive;
+    font-size: 32px;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        height: 300px;
+        padding: 0.5rem;
+    }
 
     h1 {
         padding-bottom: 1rem;
+        margin: 0;
     }
 
     span {
@@ -35,45 +52,40 @@ export const Newsletter = styled.div`
     }
 
     input {
-    padding: 1rem;
-    width: 250px;
-    border: 1px solid grey;
-    border-radius: 5px;
+      padding: 12px 36px;
+      border: 1px solid #fffff7;
+      box-shadow: 1px 1px 1px #a5c3a7;
+      border-style: solid;
+      border-width: thin;
     }
 
     button {
     padding: 1rem;
-    width: 200px;
-    border: 1px solid grey;
-    border-radius: 25px;
-    background-color: #2d3a21;
-    color:#fff;
+    width: 100px;
+    border: 0.5px solid #efefef;
+    border-radius: 1rem;
+    background-color: #d2dfc8;
+    color: #03453d;
+    padding: 14px;
     }
 
     button:hover {
         background-color: #fff;
-        color: #2d3a21;
+        color: #f07c19;
         cursor: pointer;
     }
 `
 
 export const MainFooter = styled.footer`
     display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    text-align: left;
+    height: 150px;
+    text-align: center;
     padding: 2rem;
     margin-left: 2rem;
+    font-family: 'Kanit', sans-serif;
+
 
     div {
-        width: 100%;
         display: flex;
-        
     }
-`
-
-export const Titulo = styled.tr`
-    color: #2d3a21;
-    font-family: 'Arvo', serif;
-    font-weight: bold;
 `

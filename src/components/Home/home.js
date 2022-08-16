@@ -13,10 +13,10 @@ const Home = (props) => {
         <Main>
             <Filtros>
                 <div>
-                    <p>Quantidade de produtos: {listaProdutos.length}</p>
+                    <p>QUANTIDADE DE PRODUTOS: {listaProdutos.length}</p>
                 </div>
                 <div>
-                    <p>Ordenação:
+                    <p>ORDENAÇÃO:
                         <select
                             name="order"
                             value={props.order}

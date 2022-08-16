@@ -7,8 +7,13 @@ const Container = styled.div`
     height: 100%;
     width: 100%;
     padding: 10px;
-    color: #2d3a21;
-    font-family: 'Arvo', serif;
+    color: #008584;
+    font-family: 'Kanit', sans-serif;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+        padding: 0;
+    }
 `
 
 const Produto = styled.div`
@@ -16,24 +21,28 @@ const Produto = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: black;
+    color: #595b5a;
     padding-right: 20px;
     gap: 8px;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+        padding: 0;}
 `
 const BotaoRemover = styled.button`
     font-size: 15px;
     height: 30px;
-    background: #bc7d50;
+    background: #f07c19;
     color: #fff;   
-    border: 1px solid #eee;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #eee;
+    border: 1px solid #f0f0d8;
+    border-radius: 0.25rem;
+    box-shadow: 2px 2px 2px #f0f0d8;
     cursor: pointer;
     text-shadow:none;
 `
 
 const ValorTotal = styled.p`
-    font-weight: bold;
+    color: #595b5a;
 `
 
 const Cart = (props) => {

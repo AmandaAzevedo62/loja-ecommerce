@@ -13,11 +13,19 @@ const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100%;
+
+  @media screen and (max-width: 800px) {
+        width: 100%;
+  }
 `
 const Site = styled.div`
   display: flex;
   flex-direction: row;
   min-height: 100%;
+
+  @media screen and (max-width: 800px) {
+        flex-direction: column;
+  }
 `
 
 const ContainerFilter = styled.div`
@@ -32,6 +40,10 @@ const ContainerHome = styled.div`
 
   width: 60%;
   min-height: 100%;
+
+  @media screen and (max-width: 800px) {
+        width: 100%;
+  }
 `
 
 const ContainerCart = styled.div`
