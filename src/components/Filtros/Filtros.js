@@ -6,22 +6,22 @@ function Filtros(props) {
     return (
         <Sessao>
             <h2>Filtros</h2>
-            <form action="">
+            <form action="" >
                 <div>
                     <div>
-                        <label>Buscar por nome</label>
+                        <label>BUSCAR POR NOME</label>
                     </div>
                     <input type="text" value={props.query} onChange={props.updateQuery} />
                 </div>
                 <div>
                     <div>
-                        <label>Menor Preço</label>
+                        <label>MENOR PREÇO</label>
                     </div>
                     <input type="number" value={props.minPrice} onChange={props.updateMinPrice} />
                 </div>
                 <div>
                     <div>
-                        <label>Maior preço</label>
+                        <label>MAIOR PREÇO</label>
                     </div>
                     <input type="number" value={props.maxPrice} onChange={props.updateMaxPrice} />
                 </div>
